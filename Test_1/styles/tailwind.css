@@ -1,0 +1,64 @@
+/* tailwind color */
+.text-white {
+    color: #ffffff;
+}
+.text-grey {
+    color: #c3c4c7;
+}
+.text-yellow {
+    color: #e0c414;
+}
+.bg-yellow {
+    background-color: #e0c414;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-lightblack {
+    background-color: #21201e;
+}
+
+/* tailwind flex */
+.flex {
+    display: flex;
+}
+.item-center {
+    align-items: center;
+}
+.width-full {
+    width: 100%;
+}
+
+/* tailwind */
+.object-contain {
+    object-fit: contain;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+/* tailwind fontsize */
+.text-48 {
+    font-size: 48px;
+}
+.text-24 {
+    font-size: 24px;
+}
+.text-20 {
+    font-size: 20px;
+}
+.text-18 {
+    font-size: 18px;
+}
+.text-17 {
+    font-size: 17px;
+}
+.font-light {
+    font-weight: 300;
+}

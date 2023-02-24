@@ -1,0 +1,83 @@
+@import url("./styles/header.css");
+@import url("./styles/body.css");
+@import url("./styles/tailwind.css");
+@import url("./styles/media-query.css");
+
+@font-face {
+    font-family: "Metric";
+    src: url("font/MetricWeb-Regular.eot") format("truetype");
+}
+@font-face {
+    font-family: "Metric";
+    src: url("font/MetricWeb-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Metric";
+    src: url("font/MetricWeb-Regular.woff") format("truetype");
+}
+@font-face {
+    font-family: "Metric";
+    src: url("font/MetricWeb-Regular.woff2") format("truetype");
+}
+@font-face {
+    font-family: "Metric";
+    src: url("font/MetricWeb-Regular.svg") format("truetype");
+}
+
+/* common css */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+html,
+body,
+input,
+button,
+pre {
+    font-family: "Metric", sans-serif !important;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+button {
+    height: 40px;
+    color: white;
+    background: #e0c414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    filter: brightness(85%);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-4 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+pre {
+    table-layout: fixed;
+    width: 100%;
+    white-space: break-spaces;
+}

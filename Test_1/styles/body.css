@@ -1,0 +1,67 @@
+.body-content {
+    padding-top: 60px;
+}
+
+.body-content .banner {
+    position: relative;
+    background: url(../images/herohob.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.body-content .banner .widget {
+    position: absolute;
+    top: 50%;
+    transform: translate(60px, -50%);
+    min-height: calc(500px - 120px);
+    max-height: calc(500px - 120px);
+    padding: 20px;
+    min-width: calc(50vw - 120px);
+    max-width: calc(50vw - 120px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.body-content .banner .widget button {
+    width: 130px;
+}
+
+.body-content .wrap-main-content .main-content {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.body-content .wrap-main-content .main-content .title-page h1 {
+    padding: 40px 0;
+}
+
+.body-content .wrap-main-content .main-content h1 {
+    text-align: center;
+}
+
+.body-content .wrap-main-content .main-content .row .col-4 img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.body-content .wrap-main-content .main-content .row .col-4 .card-title {
+    text-align: center;
+}
+
+.body-bottom {
+    margin-top: 40px;
+    border-top: 1px solid #c3c4c7;
+    padding: 10px 0 30px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+
+.card-bottom {
+    display: inline-block;
+    margin-top: auto;
+    width: 100%;
+}

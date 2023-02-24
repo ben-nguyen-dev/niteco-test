@@ -1,0 +1,31 @@
+.wrap-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    padding: 0 60px;
+    z-index: 99;
+}
+
+.wrap-header img {
+    margin: 0 20px;
+}
+
+.wrap-header ul {
+    padding-inline-start: 0;
+}
+
+.wrap-header ul li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.wrap-header ul li a {
+    text-decoration: none;
+}
+
+.wrap-header ul li a:hover,
+.wrap-header ul li a:focus {
+    text-decoration: underline;
+}
